@@ -2,15 +2,18 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
+    "build-watch": "snowpack build --watch",
     "test": "jest",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@emotion/core": "^10.0.35",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.27",
     "@snowpack/app-scripts-react": "^1.10.0",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/react": "^10.0.3",
