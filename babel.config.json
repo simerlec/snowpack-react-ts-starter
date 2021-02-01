@@ -1,12 +1,12 @@
 {
   "extends": "@snowpack/app-scripts-react/babel.config.json",
-  "presets": ["@emotion/babel-preset-css-prop"],
-  "env": {
-    "production": {
-      "plugins": ["emotion"]
-    },
-    "development": {
-      "plugins": [["emotion", { "sourceMap": true }]]
-    }
-  }
+  "presets": [
+    [
+      "@emotion/babel-preset-css-prop",
+      {
+        "autoLabel": "dev-only",
+        "labelFormat": "[local]"
+      }
+    ]
+  ]
 }

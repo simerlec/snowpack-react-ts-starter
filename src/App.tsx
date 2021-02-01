@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 interface AppProps {}
 

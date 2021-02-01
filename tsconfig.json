@@ -10,8 +10,19 @@
     "baseUrl": "./",
     /* more strict checking for errors that per-file transpilers like `esbuild` would crash */
     "isolatedModules": true,
-    "paths": { "*": ["web_modules/.types/*"] }
+    "paths": { "*": ["web_modules/.types/*"] },
     // Feel free to add/edit new config options below:
     // ...
+    "target": "ES6",
+    "allowJs": true,
+    "lib": ["dom", "esnext"],
+    "esModuleInterop": true,
+    "jsx": "react",
+    "types": [
+      "snowpack-env",
+      "jest",
+      "testing-library__jest-dom",
+      "@emotion/react/types/css-prop"
+    ]
   }
 }
