@@ -14,10 +14,7 @@ const style = css`
 `;
 
 const SomeComponent = ({ children }: { children: any }) => (
-  <div css={style}>
-    Some hotpink text.
-    {children}
-  </div>
+  <div css={style}>{children}</div>
 );
 
 const anotherStyle = css({
@@ -36,20 +33,27 @@ function App({}: AppProps) {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit<code>src/App.tsx</code> and save to reload.
+          Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <p>{counter}</p>
-        <button onClick={() => setcounter(counter + 1)}>inc</button>
+        <button onClick={() => setcounter(counter + 1)}>
+          increase counter
+        </button>
         <div
           css={css`
             display: flex;
+            flex-direction: column;
+            margin-top: 20px;
           `}
         >
-          <SomeComponent>Hello</SomeComponent>
+          <SomeComponent>Some hotpink text.</SomeComponent>
           <AnotherComponent></AnotherComponent>
         </div>
         <a
           className="App-link"
+          css={css`
+            margin-top: 20px;
+          `}
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
