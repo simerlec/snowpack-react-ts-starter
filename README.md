@@ -1,4 +1,4 @@
-# New Project
+# Snowpack starter using React & Typescript. Styling done with Emotion. Testing via Jest.
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
