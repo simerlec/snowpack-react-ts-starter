@@ -15,7 +15,7 @@
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "^11.2.0",
     "@snowpack/app-scripts-react": "^2.0.1",
-    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@types/jest": "^26.0.22",
     "@types/react": "^17.0.3",
