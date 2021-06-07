@@ -8,24 +8,24 @@
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@emotion/react": "^11.1.5",
+    "@emotion/react": "^11.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "^11.2.0",
     "@snowpack/app-scripts-react": "^2.0.1",
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@types/jest": "^26.0.22",
-    "@types/react": "^17.0.3",
-    "@types/react-dom": "^17.0.3",
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
     "@types/snowpack-env": "^2.3.3",
     "@types/testing-library__jest-dom": "^5.9.5",
     "jest": "^26.6.3",
-    "prettier": "^2.2.1",
-    "snowpack": "^3.3.4",
-    "ts-jest": "^26.5.5",
-    "typescript": "^4.2.4"
+    "prettier": "^2.3.1",
+    "snowpack": "^3.5.5",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.3.2"
   }
 }
