@@ -5,4 +5,5 @@ module.exports = {
     '^.+\\.svg$': '<rootDir>/jest/svgTransform.js',
     '^.+\\.css$': '<rootDir>/jest/cssTransform.js',
   },
+  testEnvironment: 'jsdom',
 };
